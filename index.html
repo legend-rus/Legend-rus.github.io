@@ -1,72 +1,26 @@
-* {
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CyberGram - Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-body {
-  margin: 0;
-  height: 100vh;
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+<div class="login-box">
+  <h1 class="logo"><span class="crown">👑</span>CyberGram</h1>
+  <p class="subtitle">Secure Cyber Community</p>
 
-.login-box {
-  background: #111;
-  padding: 40px;
-  width: 320px;
-  border-radius: 15px;
-  text-align: center;
-  box-shadow: 0 0 25px rgba(0,255,200,0.3);
-}
+  <input type="text" placeholder="Username">
+  <input type="password" placeholder="Password">
 
-.login-box h1 {
-  color: #00ffd5;
-  margin-bottom: 5px;
-}
+  <button>Log In</button>
 
-.subtitle {
-  color: #aaa;
-  font-size: 14px;
-  margin-bottom: 25px;
-}
+  <div class="divider">OR</div>
 
-input {
-  width: 100%;
-  padding: 12px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 8px;
-  outline: none;
-}
+  <p class="owner">👑 Owner: <span class="gold">rus</span></p>
+</div>
 
-button {
-  width: 100%;
-  padding: 12px;
-  background: #00ffd5;
-  border: none;
-  border-radius: 8px;
-  font-weight: bold;
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-button:hover {
-  background: #00c9aa;
-}
-
-.divider {
-  color: #555;
-  margin: 15px 0;
-}
-
-.owner {
-  color: #888;
-  font-size: 14px;
-}
-
-.gold {
-  color: gold;
-  font-weight: bold;
-}
+<script src="script.js"></script>
+</body>
+</html>
