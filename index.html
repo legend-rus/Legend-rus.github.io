@@ -1,28 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>CyberGram</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
 
-<header>
-  <h1>CyberGram</h1>
-  <p>Welcome legend-rus 👑 (Golden Verified)</p>
-</header>
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-<div class="container">
-  <h2>Login / Register</h2>
-  <input type="text" placeholder="Username">
-  <input type="password" placeholder="Password">
-  <button>Enter</button>
-</div>
+.login-box {
+  background: #111;
+  padding: 40px;
+  width: 320px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(0,255,200,0.3);
+}
 
-<footer>
-  CyberGram © 2026
-</footer>
+.login-box h1 {
+  color: #00ffd5;
+  margin-bottom: 5px;
+}
 
-<script src="script.js"></script>
-</body>
-</html>
+.subtitle {
+  color: #aaa;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #00ffd5;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #00c9aa;
+}
+
+.divider {
+  color: #555;
+  margin: 15px 0;
+}
+
+.owner {
+  color: #888;
+  font-size: 14px;
+}
+
+.gold {
+  color: gold;
+  font-weight: bold;
+}
