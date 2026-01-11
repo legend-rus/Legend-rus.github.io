@@ -1,1 +1,1 @@
-console.log("CyberGram Secure Login Loaded");
+console.log("CyberGram loaded successfully");
