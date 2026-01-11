@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   font-family: Arial, sans-serif;
@@ -12,9 +13,8 @@ body {
   align-items: center;
 }
 
-/* الصندوق الرئيسي */
 .login-box {
-  background: #111;
+  background: #f2f2f2;
   padding: 50px 30px;
   width: 92%;
   max-width: 420px;
@@ -23,32 +23,38 @@ body {
   box-shadow: 0 0 35px rgba(0,255,200,0.4);
 }
 
-/* اسم الموقع */
-.login-box h1 {
-  color: #00ffd5;
+.logo {
+  color: #000;
   margin-bottom: 10px;
   font-size: 36px;
   letter-spacing: 2px;
+  position: relative;
+}
+
+.crown {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 26px;
 }
 
 .subtitle {
-  color: #aaa;
+  color: #555;
   font-size: 16px;
   margin-bottom: 30px;
 }
 
-/* الحقول */
 input {
   width: 100%;
   padding: 16px;
   margin: 12px 0;
-  border: none;
+  border: 1px solid #ccc;
   border-radius: 10px;
   outline: none;
   font-size: 16px;
 }
 
-/* الزر */
 button {
   width: 100%;
   padding: 16px;
@@ -66,17 +72,17 @@ button:hover {
 }
 
 .divider {
-  color: #555;
+  color: #777;
   margin: 20px 0;
   font-size: 14px;
 }
 
 .owner {
-  color: #888;
+  color: #555;
   font-size: 15px;
 }
 
 .gold {
-  color: gold;
+  color: goldenrod;
   font-weight: bold;
-}
+  }
